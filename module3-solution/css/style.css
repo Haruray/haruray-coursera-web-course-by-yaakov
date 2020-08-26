@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Londrina Solid', cursive;
+}
+#navbar{
+  background-color: aqua;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid darkblue;
+}
+.navbar-header > .navbar-brand{
+  color:darkblue;
+  font-size:30px;
+}
+#content-container{
+  position: relative;
+  background-color: lightblue;
+  height:800px;
+  margin:10px 10px 10px 10px;
+  padding:10px 10px 10px 10px;
+  overflow:auto;
+}
+  
+p#content{
+  position: absolute;
+  font-size:16px;
+}
+h3{
+  margin-top:-1px;
+}
+li{
+  font-size:18px;
+}
+#bs-example-navbar-collapse-1>ul{
+  background-color:lightskyblue;
+}
